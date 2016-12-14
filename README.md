@@ -1,5 +1,7 @@
 # DNSSEC TA Tool
 
+[![Build Status](https://api.travis-ci.org/kirei/dnssec_ta_tool.png)](https://travis-ci.org/kirei/dnssec_ta_tool)
+
 This tool will extract DNSSEC Trust Anchors from a Trust Anchor XML file formatted as described in [RFC 7958](https://www.rfc-editor.org/rfc/rfc7958.txt). Validation of the detached signature over the Trust Anchor XML file IS NOT performed by this tool.
 
 
