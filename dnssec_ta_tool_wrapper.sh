@@ -40,7 +40,7 @@ openssl smime -verify -inform der \
 	-content $FILE_ROOT_ANCHORS_XML
 
 if [ $? -eq 0 ]; then
-	python dnssec_ta_tool.py --anchors $FILE_ROOT_ANCHORS_XML $@
+	python3 dnssec_ta_tool.py --anchors $FILE_ROOT_ANCHORS_XML $@
 fi
 
 rm -f $FILE_ROOT_ANCHORS_XML
